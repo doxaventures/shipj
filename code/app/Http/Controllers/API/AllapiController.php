@@ -939,7 +939,7 @@ $data = ['title' => 'Welcome to omtecweb.com',
     {
       try {
 
-
+      		dd("cjdjfjfj");
 
                   $demo = 41.75;
                  $demo1 = 41.75;
@@ -959,14 +959,15 @@ $data = ['title' => 'Welcome to omtecweb.com',
                          {
                               $demo = $demo + $d->amount;
 
-                               dd($d,"IF MA ",$demo,$demo1,$d->is_percentage);  
+                               // dd($d,"IF MA ",$demo,$demo1,$d->is_percentage);  
                          }
                          else{
 
                                   $de = ($demo*$d->amount)/100;
                                   $demo = $demo +$de;
 
-                                  dd($d,"Else ma ",$demo,$demo1,$d->is_percentage,$de );  
+                                  // dd($d,"Else ma ",$demo,$demo1,$d->is_percentage,$de );  
+
                          }
 
 
@@ -1014,7 +1015,7 @@ $url = "https://swsim.testing.stamps.com/Label/Label3.ashx/label-200.png?AQAAADF
 
 
     $filenamerotate='';
-    $targetFolder = '';
+    $targetFolder = '/asset/imges/';
 
     $targetPath = $targetFolder;
 
